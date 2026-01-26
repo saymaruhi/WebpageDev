@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-       <h2>Webpage design</h2>
+       <h2>Main</h2>
       </div>
      
     </>
