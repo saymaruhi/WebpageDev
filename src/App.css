@@ -1,0 +1,60 @@
+ 
+ /* .container{
+  height: 100px;
+  width: autopx;
+  border: 5px solid black;
+ } */
+ .header {
+  display: flex;
+  align-items: center;
+ 
+  padding: 20px;
+  margin: 20px;
+  background-color: #e7caca;
+}
+
+.header img {
+  width: 50px;
+  height: 60px;
+}
+.corner{
+margin-left: auto;
+display: flex;
+gap: 20px;
+}
+
+.NavLink{
+  display: flex;
+  justify-content: center;
+ gap: 20px;
+ padding: 20px ;
+ background-color: goldenrod;
+ }
+
+ /* .pageContent{
+  padding: 20px;
+ } */
+
+ .home img{
+ 
+height: 300px;
+/* width: auto; prevent stretching */
+max-width: 100%; /* don’t overflow container */
+padding: 5px;
+}
+
+.content{
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+
+}
+.content img{
+  flex: 1;
+ height: 300px;
+/* width: auto; prevent stretching */
+max-width: 100%; /* don’t overflow container */
+padding: 5px;
+}
+  
+ 
