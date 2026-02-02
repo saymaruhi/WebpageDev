@@ -1,9 +1,9 @@
 import "./App.css";
 import School from "./school";
 import Home from "./home";
-// import About from "./about";
-// import Department from "./department";
-// import Form from "./form";
+import About from "./about";
+import Department from "./department";
+import Form from "./form";
 import { Routes, Route, Link } from "react-router";
 
 
@@ -18,18 +18,18 @@ function App() {
           <nav className="NavLink">
             <Link to="/">Home</Link>
 
-            {/* <Link to="/about">About</Link>
+            <Link to="/about">About</Link>
             <Link to="/department">Department</Link>
-            <Link to="/form">Form & Documents</Link> */}
+            <Link to="/form">Form & Documents</Link>
           </nav>
         </div>
 
         <div className="pageContent">
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/about" element={<About />} />
+            <Route path="/about" element={<About />} />
             <Route path="/department" element={<Department />} />
-            <Route path="/form" element={<Form />} /> */}
+            <Route path="/form" element={<Form />} />
           </Routes>
         </div>
         </div>
