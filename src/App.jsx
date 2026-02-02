@@ -1,17 +1,42 @@
+import "./App.css";
+import School from "./school";
+import Home from "./home";
+import About from "./about";
+import Department from "./department";
+import Form from "./form";
+import { Routes, Route, Link } from "react-router";
 
-import './App.css'
 
 function App() {
- 
-
   return (
     <>
-      <div>
-       <h2>Main</h2>
+      <div cla>
+        <div >
+        <School />
+
+        <div>
+          <nav className="NavLink">
+            <Link to="/">Home</Link>
+
+            <Link to="/about">About</Link>
+            <Link to="/department">Department</Link>
+            <Link to="/form">Form & Documents</Link>
+          </nav>
+        </div>
+
+        <div className="pageContent">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/department" element={<Department />} />
+            <Route path="/form" element={<Form />} />
+          </Routes>
+        </div>
+        </div>
+      
       </div>
-     
     </>
-  )
+  );
 }
 
-export default App
+export default App;
