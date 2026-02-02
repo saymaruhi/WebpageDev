@@ -1,5 +1,5 @@
 import React from "react";
-import littleFerry from "./littleFerry.jpg";
+// import littleFerry from "./littleFerry.jpg";
 function Home() {
   return (
     <div className="home">
@@ -25,7 +25,7 @@ function Home() {
             services. Please do not hesitate to contact any staff with any
             questions you may have. Thanks for visiting!
           </p>
-           <img src={littleFerry} />
+           {/* <img src={littleFerry} /> */}
 
           
         </div>
