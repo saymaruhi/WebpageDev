@@ -3,9 +3,15 @@ import React from "react";
 function Home() {
   return (
     <div className="home">
+<<<<<<< HEAD
       <figure>
         <img src={littleFerry} alt="Little Ferry School" />
       </figure>
+=======
+       <figure>
+        <img src={littleFerry} alt="Little Ferry School" />
+      </figure> 
+>>>>>>> sprint1
       <article>
         <h3>Welcome to Little Ferry, NJ</h3>
         <div className="content">
@@ -25,7 +31,11 @@ function Home() {
             services. Please do not hesitate to contact any staff with any
             questions you may have. Thanks for visiting!
           </p>
+<<<<<<< HEAD
             <img src={littleFerry} /> 
+=======
+           <img src={littleFerry} /> 
+>>>>>>> sprint1
 
           
         </div>
@@ -35,6 +45,9 @@ function Home() {
 }
 
 export default Home;
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> sprint1
