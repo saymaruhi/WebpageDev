@@ -1,9 +1,9 @@
 import "./App.css";
-import School from "./school";
-import Home from "./home";
-import About from "./about";
-import Department from "./department";
-import Form from "./form";
+import School from "./school.jsx";
+import Home from "./home.jsx";
+import About from "./about.jsx";
+import Department from "./department.jsx";
+import Form from "./form.jsx";
 import { Routes, Route, Link } from "react-router";
 
 
