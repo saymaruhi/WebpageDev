@@ -10,13 +10,13 @@ import { Routes, Route, Link } from "react-router";
 function App() {
   return (
     <>
-      <div cla>
+      <div >
         <div >
         <School />
 
         <div>
           <nav className="NavLink">
-            <Link to="/">Home</Link>
+            <Link to="/">Home </Link>
 
             <Link to="/about">About</Link>
             <Link to="/department">Department</Link>
