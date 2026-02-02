@@ -5,11 +5,7 @@ function School() {
     <div>
       <div >
         <header className="header">
-<<<<<<< HEAD
-           <img src={logo} alt=" School Logo" />
-=======
            <img src={logo} alt=" School Logo" /> 
->>>>>>> sprint1
           <h2>Little Ferry School</h2>
           <div className="corner">
             <h5>Home</h5>
