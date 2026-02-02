@@ -6,7 +6,7 @@ function School() {
       <div >
         <header className="header">
            <img src={logo} alt=" School Logo" /> 
-          <h2>Little Ferry School</h2>
+          <h2>Little Ferry School (sprint1)</h2>
           <div className="corner">
             <h5>Home</h5>
             <h5>Contact Us</h5>
