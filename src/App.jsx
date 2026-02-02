@@ -5,7 +5,7 @@ import About from "./about";
 import Department from "./department";
 import Form from "./form";
 import { Routes, Route, Link } from "react-router";
-import Webdev1 from "./webdev1";
+
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
           </Routes>
         </div>
         </div>
-       <Webdev1/>
+      
       </div>
     </>
   );
