@@ -1,5 +1,5 @@
-import logo from "./logo.png";
 
+import logo from "./logo.png";
 function School() {
   return (
     <div>
@@ -17,3 +17,4 @@ function School() {
   );
 }
 export default School;
+
